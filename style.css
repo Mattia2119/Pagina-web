@@ -1,0 +1,139 @@
+/*--Common Rules--*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    /*--Rules first half--*/
+    
+    
+    .firsthalf{
+        width: 80%;
+        margin: 0 auto;
+        height: 600px;
+    }
+
+    /*--Rules header--*/
+    
+    .header-1 {
+        background-color: white;
+        height: 20%;
+        margin-bottom: 2%;
+
+    }
+
+    .logo {
+        border-right: rgba(222,222,222,255)solid 3px;
+        display: inline-block;
+        padding-right: 2%;
+        height: 98% ;
+    }
+
+    /*--Rules Nav--*/
+    .menu {
+        margin-bottom: 3%;
+    }
+
+    .menu li {
+        display: inline;
+        list-style: none;
+        text-decoration: none;
+        padding-right: 1%;
+    }
+
+    .menu li a {
+        text-decoration: none;
+    }
+
+    /*--Rules Banner-1--*/
+    
+    .banner-1 {
+        background-color: orange;
+        height: 70%;
+        margin-bottom: 2%;
+    }
+
+    .img-banner-1 {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+
+    
+    /*--Rules second half--*/
+    
+    .secondhalf{
+        width: 80%;
+        margin: 0 auto;
+        background-color: blue;
+        
+    }
+    
+    .secondhalf::after{
+        content:"";
+        display: table;
+        clear: both;
+    }
+    
+    .section-2 {
+        background-color:lightblue;
+        
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .sidebar {
+        background-color: lightblue;
+        
+        float: left;
+        width: 20%;
+    }
+
+    .img-sidebar {
+        width: 100%;
+        height: 203px;
+    }
+
+    /*--MAiN SECTION 2--*/
+    
+    .main-section-2 {
+    
+        background-color: lightblue;
+        
+        float: left;
+        width: 50%;
+        margin: 0 5%;
+    }
+
+    .img-section-2 {
+        width: 100%;
+        height: 203px;
+        object-fit: cover;
+    }
+
+    /*--aside--*/
+    
+    .aside {
+    
+        background-color: lightblue;
+        float: right;
+        width: 20%;
+        object-fit: cover;
+    }
+
+    .img-aside {
+        width: 100%;
+        height: 203px;
+        object-fit: cover;
+    }
+    
+    /*--Regole Footer--*/
+    
+    footer {
+        width: 80%;
+        margin: auto;
+        background-color: fuchsia;
+        height: 50px;
+        margin-top: 1%;
+    }
