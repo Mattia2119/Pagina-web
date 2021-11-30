@@ -20,23 +20,12 @@
         border-radius: 8px;
     }
 
-    .text-banner {
+    .text-banner-1 {
         position: absolute;
         color: white;
-        bottom: 18%;
+        bottom: 10%;
         left: 3%;
-        font-size: 25px;
-        font-weight: 200;
-    }
-
-
-    .sub-text-banner {
-        position: absolute;
-        color: white;
-        bottom: 8%;
-        left: 3%;
-        font-size: 15px;
-        font-weight: 100px;
+        width: 50%;
     }
 
     
